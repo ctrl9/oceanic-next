@@ -209,6 +209,21 @@ call <sid>hi('NeomakeWarning',             s:base08, '',       'undercurl', s:ba
 call <sid>hi('ALEErrorSign',               s:base08, s:base00, s:bold,      '')
 call <sid>hi('ALEWarningSign',             s:base0A, s:base00, s:bold,      '')
 call <sid>hi('ALEInfoSign',                s:base10, s:base00, s:bold,      '')
+call <sid>hi('ALEError',                   s:base08, s:base00, 'undercurl', s:base08)
+call <sid>hi('ALEWarning',                 s:base0A, s:base00, 'undercurl', s:base0A)
+call <sid>hi('ALEStyleError',              s:base0D, s:base00, 'undercurl', s:base0D)
+
+" youcompleteme
+call <sid>hi('YcmErrorSign',               s:base08, s:base00, s:bold,      '')
+call <sid>hi('YcmWarningSign',             s:base0A, s:base00, s:bold,      '')
+call <sid>hi('YcmErrorSection',            s:base08, s:base00, 'undercurl', s:base08)
+call <sid>hi('YcmWarningSection',          s:base0A, s:base00, 'undercurl', s:base0A)
+
+" coc
+call <sid>hi('CocErrorHighlight',          s:base08, s:base00, 'undercurl', s:base08)
+call <sid>hi('CocWarningHighlight',        s:base0A, s:base00, 'undercurl', s:base0A)
+call <sid>hi('CocErrorSign',               s:base08, s:base00, s:bold,      '')
+call <sid>hi('CocWarningSign',             s:base0A, s:base00, s:bold,      '')
 
 call <sid>hi('NERDTreeExecFile',           s:base05, '',       '',          '')
 call <sid>hi('NERDTreeDirSlash',           s:base0D, '',       '',          '')
