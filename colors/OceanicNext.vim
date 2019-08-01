@@ -220,10 +220,10 @@ call <sid>hi('YcmErrorSection',            s:base08, s:base00, 'undercurl', s:ba
 call <sid>hi('YcmWarningSection',          s:base0A, s:base00, 'undercurl', s:base0A)
 
 " coc
-call <sid>hi('CocErrorHighlight',          s:base08, s:base00, 'undercurl', s:base08)
-call <sid>hi('CocWarningHighlight',        s:base0A, s:base00, 'undercurl', s:base0A)
-call <sid>hi('CocErrorSign',               s:base08, s:base00, s:bold,      '')
-call <sid>hi('CocWarningSign',             s:base0A, s:base00, s:bold,      '')
+call <sid>hi('CocErrorHighlight',          s:base08, '', 'undercurl', s:base08)
+call <sid>hi('CocWarningHighlight',        s:base0A, '', 'undercurl', s:base0A)
+call <sid>hi('CocErrorSign',               s:base08, '', s:bold,      '')
+call <sid>hi('CocWarningSign',             s:base0A, '', s:bold,      '')
 
 call <sid>hi('NERDTreeExecFile',           s:base05, '',       '',          '')
 call <sid>hi('NERDTreeDirSlash',           s:base0D, '',       '',          '')
