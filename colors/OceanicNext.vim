@@ -176,6 +176,7 @@ call <sid>hi('DiffLine',                   s:base0D, s:base00, '',          '')
 call <sid>hi('DiffRemoved',                s:base10, s:base08, 'bold',      '')
 
 " call <sid>hi('Error',                      s:base08, s:none,   'undercurl',          '')
+call <sid>hi('Error',                      s:base00, s:base08, '', '')
 " call <sid>hi('NvimInternalError',          s:base08, s:none,   '',          '')
 " call <sid>hi('NvimInternalError',          s:base08, s:none,   '',          '')
 call <sid>hi('gitCommitOverflow',          s:base08, '',       '',          '')
@@ -214,10 +215,10 @@ call <sid>hi('ALEWarning',                 s:base0A, s:base00, 'undercurl', s:ba
 call <sid>hi('ALEStyleError',              s:base0D, s:base00, 'undercurl', s:base0D)
 
 " youcompleteme
-call <sid>hi('YcmErrorSign',               s:base08, s:base00, s:bold,      '')
-call <sid>hi('YcmWarningSign',             s:base0A, s:base00, s:bold,      '')
-call <sid>hi('YcmErrorSection',            s:base08, s:base00, 'undercurl', s:base08)
-call <sid>hi('YcmWarningSection',          s:base0A, s:base00, 'undercurl', s:base0A)
+call <sid>hi('YcmErrorSign',               s:base08, '', s:bold,      '')
+call <sid>hi('YcmWarningSign',             s:base0A, '', s:bold,      '')
+call <sid>hi('YcmErrorSection',            s:base08, '', 'undercurl', s:base08)
+call <sid>hi('YcmWarningSection',          s:base0A, '', 'undercurl', s:base0A)
 
 " coc
 call <sid>hi('CocErrorHighlight',          s:base08, '', 'undercurl', s:base08)
